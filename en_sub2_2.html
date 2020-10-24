@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/en_sub2_2.css">
+    <script src="http://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.outer-menu-item').hover(function(){
+            $(this). find('.inner-menu').show();
+            },function(){
+                $(this).find('.inner-menu').hide();
+            });
+        });
+    </script>     
+       <style>
+        #fx {
+            position: fixed;
+            top: 5px;
+            right: 5px;
+            width: 50px;
+            height: 50px;
+            z-index: 10;
+
+        }
+    </style>        
+</head>
+<body>
+    <div id="fx">
+        <a href="index.html"><p><img src="img16/house_50x50_1.png" alt=""></p></a>
+    </div>
+    <div class="wrap">
+        <div id="nav">
+            <nav>
+                <ul id="main-nav">
+                    <li class="outer-menu-item">
+                        <span class="menu-title">ENVIRONMENT</span>
+                        <ul class="inner-menu">
+                            <li class="inner-menu-item"><a href="en_sub1.html"> 토양 오염</a></li>
+                            <li class="inner-menu-item"><a href="en_sub1_2.html">해바라기</a></li>
+                            <li class="inner-menu-item"><a href="en_sub1_3.html">해바라기</a></li>
+                        </ul>                    
+                    </li>
+                    <li class="outer-menu-item">
+                        <span class="menu-title">ECOSYSTEM</span>
+                        <ul class="inner-menu">
+                            <li class="inner-menu-item"><a href="en_sub2_1.html">데이지</a></li>
+                            <li class="inner-menu-item"><a href="en_sub2_2.html">해바라기</a></li>
+                            <li class="inner-menu-item"><a href="en_sub2_3.html">해바라기</a></li>
+                        </ul>                    
+                    </li>
+                    <li class="outer-menu-item">
+                        <span class="menu-title">RESULT</span>
+                        <ul class="inner-menu">
+                            <li class="inner-menu-item"><a href="hk1.html">데이지</a></li>
+                            <li class="inner-menu-item"><a href="hk2.html">해바라기</a></li>
+                            <li class="inner-menu-item"><a href="hk3.html">해바라기</a></li>
+                        </ul>                    
+                    </li>
+                </ul>
+            </nav>
+        </div>
+            <div class="container">
+                <div class="header">
+                    <h1>오늘의 배운 내용</h1>
+                </div>
+                <div class="main">
+                    <span>신,재생에너지의 의미</span>
+                    <p>우리가 사용하는 대부분의 에너지는 석탄, 석유, 천연가스와 같은 화석 연료이다.<br>
+                        최근 전 세계적으로 에너지 사용량이 급격하게 증가하면서 화석 연료의 고갈과 환<br>
+                        경 오염 문제가 대두되었다. 따라서 이를 극복하기 위해 신,재생에너지의 이용을<br>
+                        늘리고 기술 개발을 위해 노력하고 있다. 신,재생 에너지는 기존의 화석 연료응 재<br>
+                        활용하여 얻은 에너지와 햇빛, 물, 비열, 강수, 생물 유기체 등에서 유래하는 재<br>
+                        생 가능한 에너지를 말하며, 신에너지와 재생 에너지로 나뉜다.
+                    </p>
+                </div>
+                <div class="img">
+                    <img src="img16/lpanda.jpg" width="500" height="280"><br>
+                    <span>재생 에너지</span>
+                    <p>재생 에너지란 화석 연료와 잘리 환경을 오염시키지 않고 계속해서 사용이 가능한<br>
+                        에너지를 말한다. 대부분 초기 설치비가 많이 들지만 한번 설치하고 나면 지속적으<br>
+                        로 이용할 수 있고, 환경을 거의 오염시키지 않는다는 장점이 있다. 
+                    </p>
+                </div>
+            </div>
+            <footer>
+                <p> 아이패드 사고 싶다 ..</p>
+            </footer>
+    </div>
+</body>
+</html>
